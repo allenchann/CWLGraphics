@@ -1,0 +1,20 @@
+//
+//  CWLPrefix.pch
+//  CWLGraphics
+//
+//  Created by allen_Chan on 2017/1/20.
+//  Copyright © 2017年 allen. All rights reserved.
+//
+
+#ifndef CWLPrefix_pch
+#define CWLPrefix_pch
+
+#import <Masonry.h>
+#import "UIImage+CWLImage.h"
+#import "MBProgressHUD+CWL.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CWLPrefix_pch */
+#define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREENHeight [[UIScreen mainScreen] bounds].size.height
