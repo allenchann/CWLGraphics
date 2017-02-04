@@ -12,4 +12,6 @@
 
 - (UIImage *)cutImagewithRect:(CGRect)rect;
 
+- (UIImage *) imageWithStringWaterMark:(NSString *)markString inRect:(CGRect)stringRect color:(UIColor *)color font:(UIFont *)font andImage:(UIImage *)image andImageRect:(CGRect)imageRect;
+
 @end

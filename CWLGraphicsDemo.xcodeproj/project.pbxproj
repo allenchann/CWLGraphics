@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044EAF771E44625200DD45C5 /* CWLClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EAF691E44625200DD45C5 /* CWLClipViewController.m */; };
+		044EAF7B1E44625200DD45C5 /* CWLDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EAF741E44625200DD45C5 /* CWLDrawLineViewController.m */; };
+		044EAF7F1E44627600DD45C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044EAF7C1E44627600DD45C5 /* Main.storyboard */; };
+		044EAF801E44627600DD45C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EAF7E1E44627600DD45C5 /* ViewController.m */; };
+		044EAF861E44679900DD45C5 /* CWLColorProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EAF821E44679900DD45C5 /* CWLColorProgress.m */; };
+		044EAF871E44679900DD45C5 /* CWLColorProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044EAF831E44679900DD45C5 /* CWLColorProgress.xib */; };
+		044EAF881E44679900DD45C5 /* CWLDrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EAF851E44679900DD45C5 /* CWLDrawLineView.m */; };
+		044EAF8E1E4467DB00DD45C5 /* CWLClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EAF8D1E4467DB00DD45C5 /* CWLClipView.m */; };
+		046D21071E4562660083E7F2 /* CWLClipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D21061E4562660083E7F2 /* CWLClipImageView.m */; };
+		046D210D1E456A360083E7F2 /* CWLClipResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D210C1E456A360083E7F2 /* CWLClipResultViewController.m */; };
 		04E436F31E372A4C00B34CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E436F21E372A4C00B34CCC /* main.m */; };
 		04E436F61E372A4C00B34CCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E436F51E372A4C00B34CCC /* AppDelegate.m */; };
 		04E436FE1E372A4C00B34CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E436FD1E372A4C00B34CCC /* Assets.xcassets */; };
@@ -15,14 +25,6 @@
 		04E437171E372A4C00B34CCC /* CWLGraphicsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E437161E372A4C00B34CCC /* CWLGraphicsDemoUITests.m */; };
 		04E437391E372A6400B34CCC /* MBProgressHUD+CWL.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E437261E372A6400B34CCC /* MBProgressHUD+CWL.m */; };
 		04E4373A1E372A6400B34CCC /* UIImage+CWLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E437281E372A6400B34CCC /* UIImage+CWLImage.m */; };
-		04E4373B1E372A6400B34CCC /* CWLClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4372B1E372A6400B34CCC /* CWLClipViewController.m */; };
-		04E4373C1E372A6400B34CCC /* CWLDrawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4372D1E372A6400B34CCC /* CWLDrawLineViewController.m */; };
-		04E4373D1E372A6400B34CCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E4372F1E372A6400B34CCC /* ViewController.m */; };
-		04E4373E1E372A6400B34CCC /* CWLColorProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E437331E372A6400B34CCC /* CWLColorProgress.m */; };
-		04E4373F1E372A6400B34CCC /* CWLColorProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E437341E372A6400B34CCC /* CWLColorProgress.xib */; };
-		04E437401E372A6400B34CCC /* CWLDrawLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E437361E372A6400B34CCC /* CWLDrawLineView.m */; };
-		04E437411E372A6400B34CCC /* CWLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E437381E372A6400B34CCC /* CWLImageView.m */; };
-		04E437441E372AAF00B34CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E437431E372AAF00B34CCC /* Main.storyboard */; };
 		DFD16B1995FCB46C217E605D /* libPods-CWLGraphicsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C967E2AC8A9873BE13ABA0 /* libPods-CWLGraphicsDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044EAF681E44625200DD45C5 /* CWLClipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLClipViewController.h; sourceTree = "<group>"; };
+		044EAF691E44625200DD45C5 /* CWLClipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLClipViewController.m; sourceTree = "<group>"; };
+		044EAF731E44625200DD45C5 /* CWLDrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLDrawLineViewController.h; sourceTree = "<group>"; };
+		044EAF741E44625200DD45C5 /* CWLDrawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLDrawLineViewController.m; sourceTree = "<group>"; };
+		044EAF7C1E44627600DD45C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		044EAF7D1E44627600DD45C5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044EAF7E1E44627600DD45C5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044EAF811E44679900DD45C5 /* CWLColorProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLColorProgress.h; sourceTree = "<group>"; };
+		044EAF821E44679900DD45C5 /* CWLColorProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLColorProgress.m; sourceTree = "<group>"; };
+		044EAF831E44679900DD45C5 /* CWLColorProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWLColorProgress.xib; sourceTree = "<group>"; };
+		044EAF841E44679900DD45C5 /* CWLDrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLDrawLineView.h; sourceTree = "<group>"; };
+		044EAF851E44679900DD45C5 /* CWLDrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLDrawLineView.m; sourceTree = "<group>"; };
+		044EAF8C1E4467DB00DD45C5 /* CWLClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLClipView.h; sourceTree = "<group>"; };
+		044EAF8D1E4467DB00DD45C5 /* CWLClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLClipView.m; sourceTree = "<group>"; };
+		046D21051E4562660083E7F2 /* CWLClipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLClipImageView.h; sourceTree = "<group>"; };
+		046D21061E4562660083E7F2 /* CWLClipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLClipImageView.m; sourceTree = "<group>"; };
+		046D210B1E456A360083E7F2 /* CWLClipResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLClipResultViewController.h; sourceTree = "<group>"; };
+		046D210C1E456A360083E7F2 /* CWLClipResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLClipResultViewController.m; sourceTree = "<group>"; };
 		04E436EE1E372A4C00B34CCC /* CWLGraphicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWLGraphicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E436F21E372A4C00B34CCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E436F41E372A4C00B34CCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,21 +81,7 @@
 		04E437261E372A6400B34CCC /* MBProgressHUD+CWL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+CWL.m"; sourceTree = "<group>"; };
 		04E437271E372A6400B34CCC /* UIImage+CWLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CWLImage.h"; sourceTree = "<group>"; };
 		04E437281E372A6400B34CCC /* UIImage+CWLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CWLImage.m"; sourceTree = "<group>"; };
-		04E4372A1E372A6400B34CCC /* CWLClipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLClipViewController.h; sourceTree = "<group>"; };
-		04E4372B1E372A6400B34CCC /* CWLClipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLClipViewController.m; sourceTree = "<group>"; };
-		04E4372C1E372A6400B34CCC /* CWLDrawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLDrawLineViewController.h; sourceTree = "<group>"; };
-		04E4372D1E372A6400B34CCC /* CWLDrawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLDrawLineViewController.m; sourceTree = "<group>"; };
-		04E4372E1E372A6400B34CCC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04E4372F1E372A6400B34CCC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04E437321E372A6400B34CCC /* CWLColorProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLColorProgress.h; sourceTree = "<group>"; };
-		04E437331E372A6400B34CCC /* CWLColorProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLColorProgress.m; sourceTree = "<group>"; };
-		04E437341E372A6400B34CCC /* CWLColorProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWLColorProgress.xib; sourceTree = "<group>"; };
-		04E437351E372A6400B34CCC /* CWLDrawLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLDrawLineView.h; sourceTree = "<group>"; };
-		04E437361E372A6400B34CCC /* CWLDrawLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLDrawLineView.m; sourceTree = "<group>"; };
-		04E437371E372A6400B34CCC /* CWLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLImageView.h; sourceTree = "<group>"; };
-		04E437381E372A6400B34CCC /* CWLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLImageView.m; sourceTree = "<group>"; };
 		04E437421E372A6D00B34CCC /* CWLPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWLPrefix.pch; sourceTree = "<group>"; };
-		04E437431E372AAF00B34CCC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = View/Main.storyboard; sourceTree = "<group>"; };
 		77C967E2AC8A9873BE13ABA0 /* libPods-CWLGraphicsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CWLGraphicsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7849AD45A3F939702808327D /* Pods-CWLGraphicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWLGraphicsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CWLGraphicsDemo/Pods-CWLGraphicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8FE16446E36C29496E98ABFD /* Pods-CWLGraphicsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWLGraphicsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CWLGraphicsDemo/Pods-CWLGraphicsDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +113,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044EAF661E44625200DD45C5 /* ClipView */ = {
+			isa = PBXGroup;
+			children = (
+				044EAF671E44625200DD45C5 /* Controller */,
+				044EAF6A1E44625200DD45C5 /* Model */,
+				044EAF6B1E44625200DD45C5 /* View */,
+			);
+			path = ClipView;
+			sourceTree = "<group>";
+		};
+		044EAF671E44625200DD45C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044EAF681E44625200DD45C5 /* CWLClipViewController.h */,
+				044EAF691E44625200DD45C5 /* CWLClipViewController.m */,
+				046D210B1E456A360083E7F2 /* CWLClipResultViewController.h */,
+				046D210C1E456A360083E7F2 /* CWLClipResultViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044EAF6A1E44625200DD45C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044EAF6B1E44625200DD45C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044EAF8C1E4467DB00DD45C5 /* CWLClipView.h */,
+				044EAF8D1E4467DB00DD45C5 /* CWLClipView.m */,
+				046D21051E4562660083E7F2 /* CWLClipImageView.h */,
+				046D21061E4562660083E7F2 /* CWLClipImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044EAF711E44625200DD45C5 /* DrawLineView */ = {
+			isa = PBXGroup;
+			children = (
+				044EAF721E44625200DD45C5 /* Controller */,
+				044EAF751E44625200DD45C5 /* Model */,
+				044EAF761E44625200DD45C5 /* View */,
+			);
+			path = DrawLineView;
+			sourceTree = "<group>";
+		};
+		044EAF721E44625200DD45C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				044EAF731E44625200DD45C5 /* CWLDrawLineViewController.h */,
+				044EAF741E44625200DD45C5 /* CWLDrawLineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		044EAF751E44625200DD45C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044EAF761E44625200DD45C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044EAF811E44679900DD45C5 /* CWLColorProgress.h */,
+				044EAF821E44679900DD45C5 /* CWLColorProgress.m */,
+				044EAF831E44679900DD45C5 /* CWLColorProgress.xib */,
+				044EAF841E44679900DD45C5 /* CWLDrawLineView.h */,
+				044EAF851E44679900DD45C5 /* CWLDrawLineView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04E436E51E372A4C00B34CCC = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +215,12 @@
 		04E436F01E372A4C00B34CCC /* CWLGraphicsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				044EAF7C1E44627600DD45C5 /* Main.storyboard */,
+				044EAF7D1E44627600DD45C5 /* ViewController.h */,
+				044EAF7E1E44627600DD45C5 /* ViewController.m */,
+				044EAF661E44625200DD45C5 /* ClipView */,
+				044EAF711E44625200DD45C5 /* DrawLineView */,
 				04E437241E372A6400B34CCC /* Category */,
-				04E437291E372A6400B34CCC /* Controller */,
-				04E437301E372A6400B34CCC /* Model */,
-				04E437311E372A6400B34CCC /* View */,
-				04E437431E372AAF00B34CCC /* Main.storyboard */,
 				04E436F41E372A4C00B34CCC /* AppDelegate.h */,
 				04E436F51E372A4C00B34CCC /* AppDelegate.m */,
 				04E436FD1E372A4C00B34CCC /* Assets.xcassets */,
@@ -183,40 +267,6 @@
 				04E437281E372A6400B34CCC /* UIImage+CWLImage.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		04E437291E372A6400B34CCC /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				04E4372A1E372A6400B34CCC /* CWLClipViewController.h */,
-				04E4372B1E372A6400B34CCC /* CWLClipViewController.m */,
-				04E4372C1E372A6400B34CCC /* CWLDrawLineViewController.h */,
-				04E4372D1E372A6400B34CCC /* CWLDrawLineViewController.m */,
-				04E4372E1E372A6400B34CCC /* ViewController.h */,
-				04E4372F1E372A6400B34CCC /* ViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		04E437301E372A6400B34CCC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		04E437311E372A6400B34CCC /* View */ = {
-			isa = PBXGroup;
-			children = (
-				04E437321E372A6400B34CCC /* CWLColorProgress.h */,
-				04E437331E372A6400B34CCC /* CWLColorProgress.m */,
-				04E437341E372A6400B34CCC /* CWLColorProgress.xib */,
-				04E437351E372A6400B34CCC /* CWLDrawLineView.h */,
-				04E437361E372A6400B34CCC /* CWLDrawLineView.m */,
-				04E437371E372A6400B34CCC /* CWLImageView.h */,
-				04E437381E372A6400B34CCC /* CWLImageView.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		4CE8E729909EC9E9A951F6DF /* Pods */ = {
@@ -301,6 +351,7 @@
 		04E436E61E372A4C00B34CCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CWL;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = allen;
 				TargetAttributes = {
@@ -346,9 +397,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E437011E372A4C00B34CCC /* LaunchScreen.storyboard in Resources */,
+				044EAF7F1E44627600DD45C5 /* Main.storyboard in Resources */,
 				04E436FE1E372A4C00B34CCC /* Assets.xcassets in Resources */,
-				04E4373F1E372A6400B34CCC /* CWLColorProgress.xib in Resources */,
-				04E437441E372AAF00B34CCC /* Main.storyboard in Resources */,
+				044EAF871E44679900DD45C5 /* CWLColorProgress.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,15 +473,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E4373A1E372A6400B34CCC /* UIImage+CWLImage.m in Sources */,
-				04E4373C1E372A6400B34CCC /* CWLDrawLineViewController.m in Sources */,
-				04E4373D1E372A6400B34CCC /* ViewController.m in Sources */,
-				04E437401E372A6400B34CCC /* CWLDrawLineView.m in Sources */,
+				044EAF7B1E44625200DD45C5 /* CWLDrawLineViewController.m in Sources */,
 				04E437391E372A6400B34CCC /* MBProgressHUD+CWL.m in Sources */,
-				04E4373E1E372A6400B34CCC /* CWLColorProgress.m in Sources */,
-				04E4373B1E372A6400B34CCC /* CWLClipViewController.m in Sources */,
-				04E437411E372A6400B34CCC /* CWLImageView.m in Sources */,
+				044EAF881E44679900DD45C5 /* CWLDrawLineView.m in Sources */,
+				046D210D1E456A360083E7F2 /* CWLClipResultViewController.m in Sources */,
+				046D21071E4562660083E7F2 /* CWLClipImageView.m in Sources */,
+				044EAF801E44627600DD45C5 /* ViewController.m in Sources */,
+				044EAF8E1E4467DB00DD45C5 /* CWLClipView.m in Sources */,
+				044EAF771E44625200DD45C5 /* CWLClipViewController.m in Sources */,
 				04E436F61E372A4C00B34CCC /* AppDelegate.m in Sources */,
 				04E436F31E372A4C00B34CCC /* main.m in Sources */,
+				044EAF861E44679900DD45C5 /* CWLColorProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

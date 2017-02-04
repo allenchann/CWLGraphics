@@ -8,8 +8,14 @@
 
 #import "ViewController.h"
 #import "CWLDrawLineViewController.h"
+#import "CWLClipViewController.h"
+
+#define tableRowCount 2
 
 @interface ViewController ()
+{
+    NSArray *titleArr;
+}
 
 @end
 
@@ -24,6 +30,10 @@
     self.title = @"CWLGraphics";
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     self.tableView.tableFooterView = [UIView new];
+    
+    
+    titleArr = @[@"DrawLineView",
+                 @"ClipView"];
 
 }
 
@@ -36,7 +46,7 @@
 //tableView列数代理方法
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return tableRowCount;
 }
 
 //tableView单元格显示方法
@@ -48,7 +58,7 @@
     {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
-    cell.textLabel.text = @"drawLine";
+    cell.textLabel.text = titleArr[indexPath.row];
 
     return cell;
 }
@@ -56,8 +66,9 @@
 //tableView选中代理方法
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CWLDrawLineViewController *lineVC = [CWLDrawLineViewController new];
-    [self.navigationController pushViewController:lineVC animated:YES];
+    Class controllerClass = NSClassFromString([NSString stringWithFormat:@"CWL%@Controller",titleArr[indexPath.row]]);
+    id  controller= [controllerClass new];
+    [self.navigationController pushViewController:controller animated:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
